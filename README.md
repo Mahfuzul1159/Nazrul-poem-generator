@@ -29,19 +29,14 @@ nazrul_poem_app/
 
 ## Installation (Run Locally)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/nazrul_poem_app.git
-   cd nazrul_poem_app
 
-
-2. Install dependencies:
+1. Install dependencies:
    pip install -r requirements.txt
 
-4. Add Gemini API key in .streamlit/secrets.toml:
+2. Add Gemini API key in .streamlit/secrets.toml:
    GEMINI_API_KEY = "your_api_key"
 
-5.Run the app:
+3.Run the app:
    streamlit run bot.py
 
 **Developed by:** [Sheikh Mahfuzul Islam Rafi](https://mahfuzul-islam-rafi-portfolio.netlify.app/#home)
