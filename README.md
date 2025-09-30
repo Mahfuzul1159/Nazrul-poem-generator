@@ -39,7 +39,7 @@ nazrul_poem_app/
 3.Run the app:
    streamlit run bot.py
 
-**Developed by:** [Sheikh Mahfuzul Islam Rafi](https://mahfuzul-islam-rafi-portfolio.netlify.app/#home)
+**Developed by:** [Sheikh Mahfuzul Islam Rafi](https://hey-its-mahfuz-portfolio.netlify.app/#home)
 
 
 
