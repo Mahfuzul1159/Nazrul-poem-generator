@@ -20,7 +20,7 @@ def generate_poem_gemini(seed_line: str, max_tokens: int, temperature: float):
     Generates a Bengali poem using the Gemini API with a specific poetic style.
     Instead of true streaming, we fetch the full poem first, then reveal line by line.
     """
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
     prompt = f"""
     আপনি একজন বাঙালি কবি, কাজী নজরুল ইসলামের বিদ্রোহী ঢঙে কবিতা লিখবেন।
@@ -118,3 +118,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
